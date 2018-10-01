@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.0/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+            <div class="row">
+                    <div class="col-3">
+
+        <video autoplay muted loop id="myVideo" src="Slow_Typer.mp4" type="video/mp4"></video>
+
+
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h1 class="card-title">Hello!</h1>
+                <p class="card-text"> You must verify yourself before entering this page
+                    <div class="row">
+                        <div class="col">
+                            <p>Fill all fields marked with *</p>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <form method="post" action="home.html">
+                                <input type="text" name="username" placeholder="Username*" required><br>
+                                <input minlength="8" name="password" type="password" id="password" placeholder="Password*"
+                                    required><br>
+                                <input type="password" id="password-repeat" placeholder="Retype password*" onblur="registration()"
+                                    required><br>
+                                <input type="text" name="first-name" placeholder="First name*"  id="first-name"  required><br>
+                                <input type="text" name="last-name" placeholder="Last name"><br>
+                                <input type="text" name="e-mail" placeholder="e-mail"><br>
+
+
+                                </select><br>
+                                <input type="checkbox" id="checkbox" required>
+                                <label for="checkbox">Agree with coocies*</label><br>
+                                <input type="submit" id="register" value="Register" onclick="hello()"><br>
+                        </div>
+                    </div>
+            </div>
+            </p>
+            </div>
+        </div>
+
+
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+            <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+            <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.0/jquery.fancybox.min.js"></script>
+            <script src="main.js"></script>
+        </div>
+</body>
+
+</html>

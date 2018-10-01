@@ -1,0 +1,45 @@
+body {
+    background-color: ghostwhite;
+    
+    }
+
+
+#crazyPic:hover {
+    transform: rotate(360deg);
+    transition-duration: 1s;
+}
+
+
+
+.card {
+    text-align: center;
+    position: fixed;
+    left: 600px;
+    top: 200px;
+    opacity: 0.75;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

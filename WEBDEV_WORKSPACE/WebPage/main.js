@@ -5,6 +5,8 @@ function registration(){
     if (firstInput != secondInput){
        document.getElementById("password-repeat").value = '';
         alert('Ievadītās paroles nesakrīt');
+    } else if (firstInput.length < 8 || secondInput.length < 8){
+        alert('parolei jābūt vismaz 8 simboliem!');
     }
 };
 
@@ -13,10 +15,10 @@ function hello(){
     var clientName = document.getElementById("first-name").value;
     if (clientName.substr(clientName.length - 1) == "s"){
        clientName = clientName.substr(0, clientName.length -1);
-       alert("Čau, " + clientName + "!");
+       alert("Čau, " + clientName + "!" + " spied OK lai turpinātu!");
     } else
     {
-    alert("Čau, " + clientName + "!");
+    alert("Čau, " + clientName + "!") + " spied OK lai turpinātu!";
     }
 };
 
